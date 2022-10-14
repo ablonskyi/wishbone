@@ -241,7 +241,6 @@ header a{
 .employee_info{
     display: flex;
     flex-direction: column;
-    align-items: ;
 }
 .employee img{
     height: 84px;
