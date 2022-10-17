@@ -253,6 +253,9 @@ header a{
     color: #645C55;
     margin-top: 0;
 }
+.team_content{
+    margin-right: 37px;
+}
 /*----------team ends--------------------*/
 /*----------section(get_in_touch)starts--*/
 .get_in_touch{
