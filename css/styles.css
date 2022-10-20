@@ -86,6 +86,74 @@ header a{
     background-size: cover;
 }
 /*----------section(wishbone_part_1)end-----*/
+/*----------section(Our firm)starts---------*/
+.our_firm{
+    padding: 100px 0 100px;
+}
+.our_firm .container{
+    max-width: 768px;
+    display: flex;
+    justify-content: space-between;
+}
+.our_firm h3{
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+    max-width: 134px;
+    width: 100%;
+}
+.about_our_firm{
+    max-width: 501px;
+}
+.about_our_firm blockquote{
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+}
+.about_our_firm p{
+    margin-bottom: 10px;
+    max-width: 493px;
+}
+.about_our_firm .employee{
+    margin-top: 18px;
+}
+/*----------section(Our firm)ends-----------*/
+/*----------section(Reeding house+the marble staircase+the swirling staircase starts)---*/
+.reeding_house{
+    background-image: url("../images/reeding_house_bg.jpg");
+}
+.the_marble_staircase{
+    background-image: url("../images/marble_staircase_bg.jpg");
+}
+.reeding_house, .the_marble_staircase, .the_swirling_staircase{
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+    min-height: 600px;
+}
+.reeding_house_info, .the_swirling_staircase_info, .the_marble_staircase_info{
+    max-width: 285px;
+}
+.reeding_house_info h5, .the_swirling_staircase_info h5, .the_marble_staircase_info h5{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.reeding_house_info p, .the_swirling_staircase_info p, .the_marble_staircase_info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+.the_swirling_staircase{
+    background-image: url("../images/swirling_staircase_bg.jpg");
+    padding-left: 60px;
+    justify-content: start;
+}
+/*----------section(Reeding house+the marble staircase+the swirling staircase ends)-----*/
 /*----------section(process)starts----------*/
 .process{
     padding: 100px 0;
