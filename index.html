@@ -5,6 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -83,18 +85,18 @@
     <div class="container">
         <h3 >Our Process</h3>
         <h2>How we do what we do.</h2>
-        <div class="process_articles">
-            <article class="sketching">
+        <div class="process_articles owl-carousel">
+            <article class="sketching article_carousel">
                 <img src="images/sketching.svg" alt="sketching_image">
                 <h4>Sketching</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
             </article>
-            <article class="finalizing">
+            <article class="finalizing article_carousel">
                 <img src="images/finalizing.svg" alt="finalizing_image">
                 <h4>Finalizing</h4>
                 <p >Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
             </article>
-            <article class="building">
+            <article class="building article_carousel">
                 <img src="images/building.svg" alt="building_logo">
                 <h4>Building</h4>
                 <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
@@ -133,6 +135,47 @@
         <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
     </div>
 </section>
+<section class="featured_projects">
+    <div class="container">
+        <h3>Featured projects</h3>
+        <p>Some of the latest and greatest projects from us<br>here at Wishbone+Partners.</p>
+        <div class="featured_projects_articles owl-carousel">
+            <article>
+                <div class="describe_featured" >
+                    <h4>
+                        <span>New York</span>
+                        Big Road Brewery
+                    </h4>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="images/article_1bg.png" alt="img">
+            </article>
+            <article>
+                <div class="describe_featured">
+                    <h4>
+                        <span>New York</span>
+                        Big Road Brewery
+                    </h4>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="images/article_2bg.png" alt="img">
+            </article>
+            <article>
+                <div class="describe_featured">
+                    <h4>
+                        <span>New York</span>
+                        Big Road Brewery
+                    </h4>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="images/article_3bg.png" alt="img">
+            </article>
+        </div>
+        <a href="#" class="check">View all projects</a>
+    </div>
+    </div>
+
+</section>
 <div class="team">
     <div class="container">
         <div class="team_content">
@@ -140,7 +183,45 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
             <a href="#">See team</a>
         </div>
-        <div class="team_staff">
+        <div class="team_staff_fullscreen">
+            <div class="employee">
+                <img src="images/1e.png" alt="avatar">
+                <div class="employee_info">
+                    <h4>Stephen Collier</h4>
+                    <p>Senior Partner</p>
+                </div>
+            </div>
+            <div class="employee">
+                <img src="images/2e.png" alt="avatar">
+                <div class="employee_info">
+                    <h4>Nolan Peters</h4>
+                    <p>Associate</p>
+                </div>
+            </div>
+            <div class="employee">
+                <img src="images/3e.png" alt="avatar">
+                <div class="employee_info">
+                    <h4>Ferris Wonder</h4>
+                    <p>Associate Partner</p>
+                </div>
+            </div>
+            <div class="employee">
+                <img src="images/4e.png" alt="avatar">
+                <div class="employee_info">
+                    <h4>Aria Stone</h4>
+                    <p>Senior Partner</p>
+                </div>
+            </div>
+            <div class="employee">
+                <img src="images/5e.png" alt="avatar">
+                <div class="employee_info">
+                    <h4>Niko Ferry</h4>
+                    <p>Partner</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="team_staff_mobile owl-carousel">
             <div class="employee">
                 <img src="images/1e.png" alt="avatar">
                 <div class="employee_info">
@@ -203,5 +284,12 @@
         </ul>
     </div>
 </footer>
+<script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous">
+</script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
