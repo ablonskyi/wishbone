@@ -480,7 +480,8 @@ footer li{
 }
 
 /*-----------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width: 1024px) {
     header{
         padding: 24px 24px;
     }
