@@ -480,8 +480,14 @@ footer li{
 }
 
 /*-----------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1244px){
+    .wishbone_part_1, .clients, .get_in_touch, footer{
+        padding: 75px;
+    }
 
-@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 1084px) {
     header{
         padding: 24px 24px;
     }
