@@ -741,3 +741,41 @@ footer li{
         }
     }
 }
+.ui-dialog{
+    background-color: #ECE7E4;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    font-family: 'Poppins', serif;
+    text-align: center;
+}
+.ui-dialog p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.ui-dialog-titlebar {
+    background-color: #1B1A1A;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 30px;
+}
+.ui-dialog .ui-dialog-title{
+    height: 40px;
+    margin: 0;
+    float: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+    top: 34%;
+    background-color: #ECE7E4;
+}
+.ui-button .ui-icon{
+    color: black;
+}

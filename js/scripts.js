@@ -20,3 +20,21 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+$( function() {
+    $( "#dialog" ).dialog({
+        autoOpen: false,
+        show: {
+            effect: "fade",
+            duration: 500
+        },
+        hide: {
+            effect: "fade",
+            duration: 500
+        },
+        height: 200,
+        width: 400
+    });
+    $( "#opener" ).on( "click", function() {
+        $( "#dialog" ).dialog("open");
+    });
+} );
